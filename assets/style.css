@@ -6,6 +6,12 @@ body{
     background-image: url(https://img.freepik.com/free-photo/blank-concrete-white-wall-texture-background_1017-15560.jpg?w=1060&t=st=1679288589~exp=1679289189~hmac=9b071d706c5f84bc6d75a05e4d66acceffa4fe7754b83f2efb4f9540055e97c5);
 }
 
+/* made all items flexboxes and aligned text-center */
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
 /* navigaton styling */
 .navbar{
     display: flex;
