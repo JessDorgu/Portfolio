@@ -36,3 +36,38 @@ body{
 .nav-links a:hover{
     color:white;
 }
+
+/* Profile image styling */
+.profile-image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 17;
+    justify-content: center;
+}
+
+.profile-image img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+
+/* Title styling */
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 15;
+}
+
+.title h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    font-size: 125px;
+    align-self: center;
+}
+
+.title p {
+    font-size: 37px;
+}
