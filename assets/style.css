@@ -110,4 +110,48 @@ body{
     align-items: center;
   }
 
+  @media screen and (max-width: 948px) {
+   .about-elements h3{
+    flex-direction: row;
+    max-width: 100%;
+   }
+    }
 
+
+  }
+
+  @media screen and (max-width: 768px) {
+    body{
+        background-image: url(https://img.freepik.com/free-photo/old-brick-wall-background_23-2148992880.jpg?w=996&t=st=1680039803~exp=1680040403~hmac=f02a70a78c2672bb4c6fc4db13c3ea5831f293f39b2b40c5086dbdf71465e1cf);
+    }
+    
+    .navbar{
+        font-size: 24px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 480px) {
+    body{
+        background-image: url(https://img.freepik.com/free-photo/abstract-colorful-cement-wall-texture-background_1360-493.jpg?w=1060&t=st=1680041858~exp=1680042458~hmac=1ee960b4a44dd6aa69178cd8d98efb02f414ac0643a6bae9a8ef7607c9d55708);
+    }
+    
+    .navbar{
+        font-size: 20px;
+        color: white;
+    }
+
+    .profile-iamge img{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        max-height: 300px;
+        width: 300px;
+    }
+
+    .title h1{
+        font-size: 107px;
+        /* margin-bottom: 8px; */
+    }
+  }
