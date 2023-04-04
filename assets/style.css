@@ -109,6 +109,46 @@ body{
     width: 657px;
     align-items: center;
   }
+/* projects styling */
+.gallery {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.gallery h3{
+  display: flex;
+  font-size: 95px;
+  justify-content: center;
+  flex-basis: 100%;
+  flex-shrink: 3;
+}
+
+.projectspace{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.projects {
+  padding: 50px;
+  min-width: 200px;
+  min-height: 200px;
+  flex: 1 0 50%;
+}
+.project-bigger {
+  flex: 1 0 100%;
+}
+
+.projects div{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(25, 36, 52);
+}
+
+.projects h4{
+  color: white
+}
 
 /* contact section styling */
 .socials li a{
@@ -185,8 +225,10 @@ body{
     }
     
     .navbar{
-        font-size: 20px;
+        font-size: 26px;
         color: white;
+        display: block;
+        position: relative;
     }
 
     .profile-iamge img{
@@ -201,4 +243,4 @@ body{
         font-size: 107px;
         /* margin-bottom: 8px; */
     }
-  }
+    
