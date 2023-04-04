@@ -150,6 +150,10 @@ body{
   color: white
 }
 
+.projects a{
+  text-decoration: none;
+}
+
 /* contact section styling */
 .socials li a{
   text-decoration: none;
